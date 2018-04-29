@@ -1,0 +1,125 @@
+/*
+* Light-green :#8bc34a
+*/
+
+::selection {
+    background: #8bc34a;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #8bc34a;
+    color: #fff;
+}
+
+#preloader,
+#home,
+.bg-primary,
+.sticky-wrapper.is-sticky .navbar-custom,
+#subscribe,
+.contact-section .contact-info,
+.back-to-top:hover,
+.btn-custom,
+.scroll-indicator.go-top:before,
+.scroll-indicator:before,
+.scroll-indicator:after,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.trial,
+.checkbox input[type=checkbox]:checked + .checkbox-material .check {
+    background-color: #8bc34a !important;
+}
+
+.best-price,
+.card .header-primary,
+.card-layer,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover,
+.btn.btn-primary,
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active:hover {
+    background-color: #8bc34a;
+    box-shadow: 0 16px 26px -10px rgba(139, 195, 74, 0.55), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+}
+
+a,
+.form-group.is-focused label,
+.form-group.is-focused label.control-label,
+.icon.icon-primary {
+    color: #8bc34a;
+}
+
+.form-group.is-focused .form-control {
+    background-image: -webkit-linear-gradient(#8bc34a, #8bc34a);
+    background-image: -o-linear-gradient(#8bc34a, #8bc34a);
+    background-image: linear-gradient(#8bc34a, #8bc34a);
+}
+
+.clients:before {
+    background-color: rgba(139, 195, 74, 0.9);
+}
+
+.clients,
+.label.label-primary {
+    background-color: #8bc34a !important;
+    color: #fff;
+}
+
+#about:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -3;
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(139, 195, 74, 0.8) 100%);
+    /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(60%, rgba(255, 255, 255, 0.01)), color-stop(100%, rgba(139, 195, 74, 0.8)));
+    /* safari4+,chrome */
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(139, 195, 74, 0.8) 100%);
+    /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(139, 195, 74, 0.8) 100%);
+    /* opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(139, 195, 74, 0.8) 100%);
+    /* ie10+ */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(139, 195, 74, 0.8) 100%);
+    /* w3c */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff00ff', endColorstr='#FFFFFF', GradientType=1);
+    /* ie6-9 */
+}
+
+a:hover,
+a:focus {
+    color: #8bc34a;
+}
+
+@media (max-width: 990px) {
+    #about:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -3;
+        background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(139, 195, 74, 0.8) 100%);
+        /* ff3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(85%, rgba(255, 255, 255, 0.01)), color-stop(100%, rgba(139, 195, 74, 0.8)));
+        /* safari4+,chrome */
+        background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(139, 195, 74, 0.8) 100%);
+        /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(139, 195, 74, 0.8) 100%);
+        /* opera 11.10+ */
+        background: -ms-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(139, 195, 74, 0.8) 100%);
+        /* ie10+ */
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(139, 195, 74, 0.8) 100%);
+        /* w3c */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff00ff', endColorstr='#FFFFFF', GradientType=1);
+        /* ie6-9 */
+    }
+}

@@ -1,0 +1,125 @@
+/*
+* Amber :#ffc107
+*/
+
+::selection {
+    background: #ffc107;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #ffc107;
+    color: #fff;
+}
+
+#preloader,
+#home,
+.bg-primary,
+.sticky-wrapper.is-sticky .navbar-custom,
+#subscribe,
+.contact-section .contact-info,
+.back-to-top:hover,
+.btn-custom,
+.scroll-indicator.go-top:before,
+.scroll-indicator:before,
+.scroll-indicator:after,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.trial,
+.checkbox input[type=checkbox]:checked + .checkbox-material .check {
+    background-color: #ffc107 !important;
+}
+
+.best-price,
+.card .header-primary,
+.card-layer,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover,
+.btn.btn-primary,
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active:hover {
+    background-color: #ffc107;
+    box-shadow: 0 16px 26px -10px rgba(255, 193, 7, 0.45), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+}
+
+a,
+.form-group.is-focused label,
+.form-group.is-focused label.control-label,
+.icon.icon-primary {
+    color: #ffc107;
+}
+
+.form-group.is-focused .form-control {
+    background-image: -webkit-linear-gradient(#ffc107, #ffc107);
+    background-image: -o-linear-gradient(#ffc107, #ffc107);
+    background-image: linear-gradient(#ffc107, #ffc107);
+}
+
+.clients:before {
+    background-color: rgba(255, 193, 7, 0.9);
+}
+
+.clients,
+.label.label-primary {
+    background-color: #ffc107 !important;
+    color: #fff;
+}
+
+#about:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -3;
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(255, 193, 7, 0.8) 100%);
+    /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(60%, rgba(255, 255, 255, 0.01)), color-stop(100%, rgba(255, 193, 7, 0.8)));
+    /* safari4+,chrome */
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(255, 193, 7, 0.8) 100%);
+    /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(255, 193, 7, 0.8) 100%);
+    /* opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(255, 193, 7, 0.8) 100%);
+    /* ie10+ */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 60%, rgba(255, 193, 7, 0.8) 100%);
+    /* w3c */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff00ff', endColorstr='#FFFFFF', GradientType=1);
+    /* ie6-9 */
+}
+
+a:hover,
+a:focus {
+    color: #ffc107;
+}
+
+@media (max-width: 990px) {
+    #about:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -3;
+        background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(255, 193, 7, 0.8) 100%);
+        /* ff3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(85%, rgba(255, 255, 255, 0.01)), color-stop(100%, rgba(255, 193, 7, 0.8)));
+        /* safari4+,chrome */
+        background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(255, 193, 7, 0.8) 100%);
+        /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(255, 193, 7, 0.8) 100%);
+        /* opera 11.10+ */
+        background: -ms-linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(255, 193, 7, 0.8) 100%);
+        /* ie10+ */
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 85%, rgba(255, 193, 7, 0.8) 100%);
+        /* w3c */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff00ff', endColorstr='#FFFFFF', GradientType=1);
+        /* ie6-9 */
+    }
+}
